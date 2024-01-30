@@ -1,0 +1,14 @@
+nav {
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            .active {
+                border-bottom: 3px dotted rgb(160, 82, 160);
+            }
+        }
+    }
+}
