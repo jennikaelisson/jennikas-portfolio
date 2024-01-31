@@ -5,7 +5,7 @@ export const Home = () => {
         <img src="../../img/Jennika-minimized.jpg" alt="Jennika Elisson" />
       </div>
       <div id="pitch">
-        <h2>Welcome to my Creative Hub!</h2>
+        <h1>Welcome to my Creative Hub!</h1>
 <h3>
 Hey there, I'm Jennika, a 
 passionate full-stack developer with a zest for creativity. From a background in art, photography, and even building my own cottage on wheels, I've embraced various realms of creation. </h3>

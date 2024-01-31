@@ -2,7 +2,7 @@ export const Contact = () => {
 
     return (
         <>
-            <h3>Get in touch</h3>
+            <h1>Get in touch!</h1>
         </>
     )
 }
