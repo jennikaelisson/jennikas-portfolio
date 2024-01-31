@@ -1,4 +1,11 @@
 nav {
+    position: sticky;
+    top: 0;
+    background-color: var(--melon); /* Du kan ändra bakgrundsfärgen efter ditt behov */
+    z-index: 100; 
+    font-family: var(--vollkorn);
+    color: var(--rosetaupe2);
+    
     ul {
         list-style: none;
         padding: 0;
@@ -7,7 +14,7 @@ nav {
 
         li {
             .active {
-                border-bottom: 3px dotted rgb(160, 82, 160);
+                border-bottom: 3px dotted var(--rosetaupe2);
             }
         }
     }

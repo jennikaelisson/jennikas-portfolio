@@ -11,6 +11,9 @@ export const NavBar = () => {
           <NavLink to={"/portfolio"}>Portfolio</NavLink>
         </li>
         <li>
+          <NavLink to={"/resume"}>Resume</NavLink>
+        </li>
+        <li>
           <NavLink to={"/about"}>About</NavLink>
         </li>
         <li>
