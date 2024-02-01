@@ -79,15 +79,7 @@ export const Portfolio = () => {
             The project was a testament to my JavaScript skills, offering a
             hands-on exploration of data manipulation and user interaction.
             <br />
-            <br />
-            Embracing a retro design aesthetic, the app features a captivating
-            wavy header that adds a touch of whimsy to the user interface. Users
-            have the flexibility to add new contacts, update existing ones, or
-            completely clear the phone book when needed. The ability to modify
-            contact details, including names and numbers, enhances the app's
-            usability and ensures that the phone book remains relevant to the
-            user's evolving needs.
-            <br />
+           
             <br />
             One of the standout features is the option to delete individual
             contacts or wipe the entire phone book, providing users with a clean

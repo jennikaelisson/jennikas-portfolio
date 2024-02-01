@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--vollkorn);
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,11 +19,66 @@
   --lightcoral: #c8655c;
 
   --padding: 2em;
+  --padding-sm: 0.5rem;
 
   --didot: 'GFS Didot', serif;
   --ultra: 'Ultra', serif;
   --vollkorn: 'Vollkorn', serif;
   --raleway: 'Raleway Dots', sans-serif;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); 
+  gap: 16px; 
+}
+
+.col-1 {
+  grid-column: span 1; /* Takes up 1 column */
+}
+
+.col-2 {
+  grid-column: span 2; /* Takes up 2 columns */
+}
+
+.col-3 {
+  grid-column: span 3; /* Takes up 3 columns */
+}
+.col-4 {
+  grid-column: span 4; /* Takes up 1 column */
+}
+
+.col-5 {
+  grid-column: span 5; /* Takes up 2 columns */
+}
+
+.col-6 {
+  grid-column: span 6; /* Takes up 3 columns */
+}
+
+.col-7 {
+  grid-column: span 7; /* Takes up 1 column */
+}
+
+.col-8 {
+  grid-column: span 8; /* Takes up 2 columns */
+}
+
+.col-9 {
+  grid-column: span 9; /* Takes up 3 columns */
+}
+
+.col-10 {
+  grid-column: span 10; /* Takes up 1 column */
+}
+
+.col-11 {
+  grid-column: span 11; /* Takes up 2 columns */
+}
+
+.col-12 {
+  grid-column: span 12; /* Takes up 3 columns */
 }
 
 a {
