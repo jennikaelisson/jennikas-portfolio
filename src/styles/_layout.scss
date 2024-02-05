@@ -8,8 +8,12 @@
 
 header {
     //border: 2px solid plum;
-    width: 100%;
+    //width: 100%;
     min-height: 20dvh;
+
+    img {
+        width: 100%;
+    }
 }
 
 main {
@@ -41,6 +45,17 @@ footer {
         }
     }
     #copyright {
-        max-width: 500px;
+        max-width: 100%;
     }
 }
+
+
+/* Tablet-stilar */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Tablet-specifika stilar här */
+  }
+  
+  /* Mobil-stilar */
+  @media only screen and (max-width: 767px) {
+    /* Mobil-specifika stilar här */
+  }

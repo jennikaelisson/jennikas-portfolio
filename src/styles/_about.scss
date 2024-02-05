@@ -2,8 +2,8 @@ section {
     div {
     display: flex;
     justify-content: center;
-  //  flex-wrap: wrap;
     }
+
     p {
         padding: 2rem;
         margin: auto;
@@ -15,3 +15,49 @@ section {
        margin: auto;
     }
 }
+
+/* Tablet-stilar */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    section {
+        div {
+        display: flex;
+        justify-content: center;
+        }
+    
+        p {
+            padding: 2rem;
+            margin: auto;
+        }
+    
+        img {
+            max-width: 50dvh;
+            border-radius: 20px;
+           margin: auto;
+        }
+    }
+  }
+  
+  /* Mobil-stilar */
+  @media only screen and (max-width: 767px) {
+    section {
+        div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        }
+    
+        p {
+            padding: 0.5rem;
+            margin: auto;
+            order: 1;
+        }
+    
+        img {
+            max-width: 24%;
+            border-radius: 20px;
+            margin: 0.5rem;
+           order: 2;
+        }
+    }
+  }

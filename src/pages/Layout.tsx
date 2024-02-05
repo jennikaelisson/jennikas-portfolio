@@ -7,7 +7,7 @@ export const Layout = () => {
     <>
       <header>
         <NavBar />
-        <img src="./../../img/text.png" alt="Jennika Elisson" />
+        <img src="./../../img/text.png" alt="Jennika Elisson" id="header-img"/>
       </header>
       <main>
         <Outlet />

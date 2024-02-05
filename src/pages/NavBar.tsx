@@ -10,9 +10,9 @@ export const NavBar = () => {
         <li>
           <NavLink to={"/portfolio"}>Portfolio</NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to={"/resume"}>Resume</NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to={"/about"}>About</NavLink>
         </li>
