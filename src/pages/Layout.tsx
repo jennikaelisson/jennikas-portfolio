@@ -5,15 +5,16 @@ import { NavBar } from "./NavBar";
 export const Layout = () => {
   return (
     <>
-      <header>
-        <NavBar />
-        <img src="./../../img/text.png" alt="Jennika Elisson" id="header-img"/>
+      <NavBar />
+      <header className="row">
+        <div className="col-12">
+        <img src="./../../img/text.png" alt="Jennika Elisson" id="header-img" /></div>
       </header>
-      <main>
+      <main className="row">
         <Outlet />
       </main>
-      <footer>
-        <div className="flex">
+      <footer className="row">
+        <div className="col-12 flex">
           <p>
             <Link to={"https://github.com/jennikaelisson"} target="_blank">
               <img src="./../../img/github-mark.png" alt="Github link" />
@@ -28,7 +29,7 @@ export const Layout = () => {
             </Link>
           </p>
         </div>
-        <div>
+        <div className="col-12">
           <img
             id="copyright"
             src="./../../img/copyright.png"

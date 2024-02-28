@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+
   color: rgb(255, 255, 255);
   background-color: var(--melon);
 
@@ -97,6 +97,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: var(--vollkorn);
+  color: rgb(255, 255, 255);
+    background-color: var(--melon);
 }
 
 h1 {

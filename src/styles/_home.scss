@@ -10,10 +10,11 @@
     }
 
     #pitch {
-        max-width: 50%;
-        //padding: 2rem;
-        margin: auto;
+        flex-grow: 1;      // Allow the pitch div to grow and fill the remaining space
+        padding: 2rem;
         font-family: var(--vollkorn);
+        overflow-y: auto;  // Enable vertical scrolling if content exceeds the height
+    
     }
 
 }

@@ -5,10 +5,10 @@ export const Portfolio = () => {
     <>
       <h1>Portfolio</h1>
 
-      <article>
-        <div>
+      <article className="row">
+        <div className="col-12 col-lg-6">
           <h2>Bucket List</h2>
-          <p>
+          <p>https://github.com/jennikaelisson/bucket-list
             A feature-rich bucket list application crafted with React and
             TypeScript. Users can seamlessly add, remove, and mark items as
             completed on their personal bucket list. The application goes beyond
@@ -29,16 +29,16 @@ export const Portfolio = () => {
             to delivering a polished, user-friendly application with a focus on
             both functionality and aesthetics.
           </p>
-        </div>{" "}
-        <Link to="/din-nya-sida" target="_blank" rel="noopener noreferrer">
-          <img
+        </div>{" "} <div  className="col-12 col-lg-6">
+        <Link to="https://github.com/jennikaelisson/bucket-list" target="_blank" rel="noopener noreferrer">
+          <img 
             src="./../../img/bucket-list.jpg"
             alt="Bucket list made in React with TypeScript"
           />
-        </Link>
+        </Link></div>
       </article>
-      <article>
-        <div>
+      <article className="row">
+        <div className="col-12 col-lg-6 order-last order-lg-first">
           {" "}
           <Link to="https://github.com/jennikaelisson/Individual-assignment-3" target="_blank" rel="noopener noreferrer">
             <img
@@ -47,7 +47,7 @@ export const Portfolio = () => {
             />
           </Link>
         </div>
-        <div>
+        <div className="col-12 col-lg-6">
           <h2>Mars Rover Explorer</h2>
           <p>
             Mars Rover Explorer is a dynamic web application developed using
@@ -68,8 +68,8 @@ export const Portfolio = () => {
           </p>
         </div>
       </article>
-      <article>
-        <div>
+      <article className="row">
+        <div className="col-12 col-lg-6">
           <h2>Retro Phone Book</h2>
           <p>
             Immerse yourself in the charm of the Retro Phone Book, a nostalgic
@@ -89,7 +89,7 @@ export const Portfolio = () => {
             past with a modern twist.
           </p>
         </div>
-        <div>
+        <div className="col-12 col-lg-6">
           {" "}
           <Link to="https://github.com/jennikaelisson/Kunskapskontroll-2" target="_blank" rel="noopener noreferrer">
             <img
@@ -99,14 +99,14 @@ export const Portfolio = () => {
           </Link>
         </div>
       </article>
-      <article>
-        <div>
+      <article className="row">
+        <div className="col-12 col-lg-6 order-last order-lg-first">
           {" "}
           <Link to="https://github.com/jennikaelisson/FSU23D-assignment-01" target="_blank" rel="noopener noreferrer">
             <img src="./../../img/git-cafe-mini.jpg" alt="Website for café" />
           </Link>
         </div>
-        <div>
+        <div className="col-12 col-lg-6">
           <h2>GIT Café</h2>
           <p>
             Welcome to the GIT Café, an online space curated for young
