@@ -1,7 +1,6 @@
 {
   "name": "jennikas-portfolio",
   "private": true,
-  "homepage": "https://jennikaelisson.github.io/jennikas-portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
