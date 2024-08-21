@@ -1,11 +1,12 @@
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
+    // max-width: 1280px;
+    margin: 0 0;
     padding: 0 2rem;
     text-align: center;
     width: 100%;
   }
 
+  
 header {
     //border: 2px solid plum;
     //width: 100%;
@@ -15,6 +16,18 @@ header {
         width: 100%;
     }
 }
+
+.parallax {
+    background-image: url('./../../img/text.png'); /* Använd rätt sökväg till din bild */
+    min-height: 450px; /* Justera höjden efter behov */
+    background-attachment: fixed;
+    background-position: center 56px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box; 
+  }  
+
+ 
 
 main {
    // border: 2px solid plum;
@@ -61,6 +74,13 @@ footer {
             width: 100%;
         }
     }
+
+    .parallax {
+        background-size: contain; /* Eller contain beroende på bildens utseende */
+        background-position: center 56px; /* Justera om du vill centrera */
+        min-height: 300px; /* Justera höjden efter behov */
+
+    }
 }
   
   /* Mobil-stilar */
@@ -73,5 +93,12 @@ footer {
         img {
             width: 100%;
         }
+    }
+
+    .parallax {
+        background-size: contain; /* Eller contain beroende på bildens utseende */
+        background-position: center 56px; /* Justera om du vill centrera */
+        min-height: 170px; /* Justera höjden efter behov */
+
     }
   }

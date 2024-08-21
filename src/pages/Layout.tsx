@@ -6,9 +6,9 @@ export const Layout = () => {
   return (
     <>
       <NavBar />
-      <header className="row">
-        <div className="col-12">
-        <img src="./../../img/text.png" alt="Jennika Elisson" id="header-img" /></div>
+      <header className="parallax">
+        {/* <div className="col-12">
+        <img src="./../../img/text.png" alt="Jennika Elisson" id="header-img" /></div> */}
       </header>
       <main className="row">
         <Outlet />
